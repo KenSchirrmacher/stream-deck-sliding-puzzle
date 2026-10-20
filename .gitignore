@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+com.homedeck.slidingpuzzle.sdPlugin/logs/
+com.homedeck.slidingpuzzle.sdPlugin/bin/
+com.homedeck.slidingpuzzle.sdPlugin/imgs/
+*.streamDeckPlugin
