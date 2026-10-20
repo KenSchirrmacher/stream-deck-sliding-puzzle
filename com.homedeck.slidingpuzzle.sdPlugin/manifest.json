@@ -8,7 +8,10 @@
   "Category": "Sliding Puzzle",
   "CategoryIcon": "imgs/plugin/category-icon",
   "CodePath": "bin/plugin.js",
-  "DefaultWindowSize": [420, 420],
+  "DefaultWindowSize": [
+    420,
+    420
+  ],
   "UUID": "com.homedeck.slidingpuzzle",
   "SDKVersion": 3,
   "Software": {
@@ -19,8 +22,14 @@
     "Debug": "enabled"
   },
   "OS": [
-    { "Platform": "windows", "MinimumVersion": "10" },
-    { "Platform": "mac", "MinimumVersion": "10.15" }
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    },
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.15"
+    }
   ],
   "Actions": [
     {
@@ -28,8 +37,15 @@
       "UUID": "com.homedeck.slidingpuzzle.tile",
       "Icon": "imgs/actions/tile/icon",
       "Tooltip": "One square of the sliding puzzle. Place these in a solid rectangular block on a folder page — one tile becomes the empty gap automatically.",
-      "Controllers": ["Keypad"],
-      "States": [{ "Image": "imgs/actions/tile/icon", "ShowTitle": false }]
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "imgs/actions/tile/icon",
+          "ShowTitle": false
+        }
+      ]
     }
   ]
 }
